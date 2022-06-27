@@ -9,7 +9,12 @@ public class AppLayout2 extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 				
-		Scene principal = new Scene(new TesteAnchorPane(), 800, 600);
+		// Scene principal = new Scene(new TesteAnchorPane(), 800, 600);
+		// Scene principal = new Scene(new TesteBorderPane(), 800, 600);
+		// Scene principal = new Scene(new TesteFlowPane(), 800, 600);
+		//Scene principal = new Scene(new TesteStackPane(), 800, 600);
+		Scene principal = new Scene(new TesteTilePane(), 800, 600);
+		
 		
 		primaryStage.setScene(principal);
 		primaryStage.setTitle("Gerenciadores de Layout");
