@@ -15,7 +15,7 @@ private static int i = 0;
 	
 	private String[] cores = {
 			"black", "#39aac6", "#aabbcc",
-			"#fb750e", "#6657a8", "f9060e"
+			"#fb750e", "red", "f9060e"
 	};
 	
 	public Quadrado() {
