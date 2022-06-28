@@ -12,7 +12,13 @@ public class LoginControlador {
 	private PasswordField campoSenha;
 	
 	public void entrar() {
-		System.out.println(campoEmail.getText());
-		System.out.println(campoSenha.getText());
+		boolean emailValido = campoEmail.getText().equals("lucas.kuhn@hotmail.com");
+		boolean senhaValida = campoSenha.getText().equals("123456");
+		
+		if(emailValido && senhaValida) {
+			System.out.println("Sucesso");
+		} else {
+			System.out.println("Falha");
+		}
 	}
 }
